@@ -1,4 +1,4 @@
-<footer id="footer">
+{*<footer id="footer">*}
     <div class="container">
         <div class="footer-cta pt-5 pb-5">
             <div class="row">
@@ -36,7 +36,7 @@
                 <div class="col-xl-4 col-lg-4 mb-50">
                     <div class="footer-widget">
                         <div class="footer-logo">
-                            <a href="index.html"><img src="assets/DA/logoTransparentBlanc.png" class="img-fluid" alt="logo"></a>
+                            <a href="index.html"><img src="/assets/DA/logoTransparentBlanc.png" class="img-fluid" alt="logo"></a>
                         </div>
                         <div class="footer-text">
                             <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -44,8 +44,8 @@
                         </div>
                         <div class="footer-social-icon">
                             <span>Follow us</span>
-                            <a href="#"><img id="fb" src="assets/DA/icon/fb_icon.svg"></a>
-                            <a href="#"><img id="insta" src="assets/DA/icon/insta_icon.svg"></a>
+                            <a href="#"><img id="fb" src="/assets/DA/icon/fb_icon.svg"></a>
+                            <a href="#"><img id="insta" src="/assets/DA/icon/insta_icon.svg"></a>
                         </div>
                     </div>
                 </div>
@@ -109,4 +109,4 @@
             </div>
         </div>
     </div>
-</footer>
+{*</footer>*}

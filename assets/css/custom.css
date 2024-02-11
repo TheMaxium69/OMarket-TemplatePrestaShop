@@ -1,14 +1,111 @@
-/* EXEMPLE */
+/* ALL */
 
-body{
-    background-color: red;
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    border-color: unset!important;
+    box-shadow: unset!important;
+    outline: 0 none!important;
 }
+
+.row{
+    margin-right: unset!important;
+    margin-left: unset!important;
+}
+
+body,
+#wrapper{
+    background-color: #fff4ec;
+    /*padding-top: unset;*/
+}
+
+/* NAVBAR */
+
+nav .container-fluid::after,
+nav .container::after,
+nav .row::after {
+    content: unset;
+    display: block;
+    clear: unset;
+}
+
+nav {
+    background-color: white;
+}
+
+nav a.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+
+nav .product{
+    color:black;
+    padding: 6px;
+    margin-right: 15px;
+}
+
+nav .test{
+    color: white!important;
+    background-color: #ff0000;
+    padding: 6px;
+    border:none;
+    border-radius: 10px;
+    margin-right: 15px;
+    padding-right: .5rem!important;
+    padding-left: .5rem!important;
+    font-weight: 600!important;
+    font-size: large!important;
+}
+nav .nav-link{
+    padding: 10px!important;
+}
+nav i{
+    color: black!important;
+}
+nav i:hover{
+    color: red!important;
+}
+
+
+
+nav .div #navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .loginAndCart > * {
+    margin-right: 20px;
+}
+
+nav i:hover{
+    color: red;
+}
+
+nav .logo-container{
+    padding-right: 100px;
+}
+
 
 /* FOOTER */
 
 #footer {
     background: #151414;
     position: relative;
+    padding-top: unset;
 }
 
 #footer ul {
