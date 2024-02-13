@@ -34,70 +34,70 @@ body,
 
 /* NAVBAR */
 
-nav .container-fluid::after,
-nav .container::after,
-nav .row::after {
-    content: unset;
-    display: block;
-    clear: unset;
-}
+    nav .container-fluid::after,
+    nav .container::after,
+    nav .row::after {
+        content: unset;
+        display: block;
+        clear: unset;
+    }
 
-nav {
-    background-color: white;
-}
+    nav {
+        background-color: white;
+    }
 
-nav a.nav-link{
-    text-decoration: none;
-    font-weight: 600;
-    font-size: large;
-}
+    nav a.nav-link{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: large;
+    }
 
-nav .product{
-    color:black;
-    padding: 6px;
-    margin-right: 15px;
-}
+    nav .product{
+        color:black;
+        padding: 6px;
+        margin-right: 15px;
+    }
 
-nav .test{
-    color: white!important;
-    background-color: #ff0000;
-    padding: 6px;
-    border:none;
-    border-radius: 10px;
-    margin-right: 15px;
-    padding-right: .5rem!important;
-    padding-left: .5rem!important;
-    font-weight: 600!important;
-    font-size: large!important;
-}
-nav .nav-link{
-    padding: 10px!important;
-}
-nav i{
-    color: black!important;
-}
-nav i:hover{
-    color: red!important;
-}
+    nav .test{
+        color: white!important;
+        background-color: #ff0000;
+        padding: 6px;
+        border:none;
+        border-radius: 10px;
+        margin-right: 15px;
+        padding-right: .5rem!important;
+        padding-left: .5rem!important;
+        font-weight: 600!important;
+        font-size: large!important;
+    }
+    nav .nav-link{
+        padding: 10px!important;
+    }
+    nav i{
+        color: black!important;
+    }
+    nav i:hover{
+        color: red!important;
+    }
 
 
 
-nav .div #navbar{
-    display: flex;
-    justify-content: space-between;
-}
+    nav .div #navbar{
+        display: flex;
+        justify-content: space-between;
+    }
 
-nav .loginAndCart > * {
-    margin-right: 20px;
-}
+    nav .loginAndCart > * {
+        margin-right: 20px;
+    }
 
-nav i:hover{
-    color: red;
-}
+    nav i:hover{
+        color: red;
+    }
 
-nav .logo-container{
-    padding-right: 100px;
-}
+    nav .logo-container{
+        padding-right: 100px;
+    }
 
 
 /* FOOTER */
