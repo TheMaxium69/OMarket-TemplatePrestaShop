@@ -12,16 +12,16 @@
                     <a class="nav-link test" href="http://localhost/OMarket-WebSite/form.php">Take the test</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link product" href="/2-home">Our Products</a>
+                    <a class="nav-link product" href="http://localhost/OMarket-WebSite/article.php">Our Products</a>
                 </li>
             </ul>
         </div>
         <div class="logo-container">
-            <a class="navbar-brand" href="/"><img src="/assets/DA/logoOMARKET.png" width="200px" alt="logo OMarket"></a>
+            <a class="navbar-brand" href="http://localhost/OMarket-WebSite"><img src="http://localhost/OMarket-WebSite/assets/DA/logoOMARKET.png" width="200px" alt="logo OMarket"></a>
         </div>
         <div class="loginAndCart">
-            <i onclick="window.location.href = '/cart?action=show';" class="fa-solid fa-cart-shopping fa-lg"></i>
-            <i onclick="window.location.href = '/login?back=https%3A%2F%2Flocalhost%2F';" class="fa-solid fa-user fa-lg"> Log In</i>
+            <i class="fa-solid fa-cart-shopping fa-lg" onclick="window.location.href = 'https://localhost/cart?action=show';"></i>
+            <i class="fa-solid fa-user fa-lg" onclick="window.location.href = 'https://localhost/login?back=https%3A%2F%2Flocalhost%2F';"> Log In</i>
         </div>
     </div>
 </nav>
